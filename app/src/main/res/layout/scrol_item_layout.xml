@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp" android:layout_height="80dp"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/scrol_item_iv"
+        android:layout_width="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/scrol_item_tv"
+        android:layout_width="match_parent"
+        android:text="12321312"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:ellipsize="end"
+        android:maxWidth="60dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+

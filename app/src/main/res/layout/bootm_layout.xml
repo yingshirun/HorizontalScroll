@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="62dp" >
+    <Button
+        android:id="@+id/new_chat_group_btn"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/new_chat_group_bottm_btn"
+        android:text="确认"
+        android:onClick="btn_send"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <com.shirun.wechatsendgroupchat.view.MyHorizontalScroll
+        android:id="@+id/myhorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/new_chat_group_btn"
+        android:background="#99000000" />
+
+</merge>
